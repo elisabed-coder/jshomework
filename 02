@@ -1,0 +1,19 @@
+alert(5 > 4);
+True;
+alert("apple" > "pineapple");
+True;
+alert("2" > "12");
+True;
+alert(undefined == null);
+False;
+alert(undefined === null);
+False;
+alert(null == " 0 ");
+False;
+alert(null === +"0");
+False;
+
+alert(null || 2 || undefined);
+alert(1 && null && 2);
+alert(null || (2 && 3) || 4);
+alert((!1 && 2) || 3);
