@@ -1,0 +1,14 @@
+alert(5 > 4);
+// True;
+alert("apple" > "pineapple");
+// True;
+alert("2" > "12");
+// true;
+alert(undefined == null);
+// false;
+alert(undefined === null);
+// false;
+alert(null == " 0 ");
+// false;
+alert(null === +"0");
+// false;
