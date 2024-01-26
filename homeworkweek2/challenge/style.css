@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 70%;
+    /* border: 3px solid blue; */
+    min-height: 100vh;  
+    text-align: center;
+    margin: auto;
+}
+.header {
+    margin: 56px 163px 50px -50px;
+}
+.div1, .div2{
+    float: left;
+    width: 50%;
+    height: 719px;
+    /* border: 2px solid red; */
+}
+
+.logo, .main-txt, .navbar {
+    height: 17%; 
+    /* border: 2px solid green; */
+   
+}
+.header-txt, .consult-button-div {
+    height: 33%;
+    /* border: 2px solid green; */
+
+    }
+.drawing {
+    height: 83%;
+    /* border: 2px solid green; */
+
+}
+.logo {
+    margin-right: 70px;
+}
+
+/* .logo-sign { 
+    width: 41px;
+    height: 41px;
+    background-color: #458FF6;
+    color: #FFF;
+    border-radius: 20.5px;
+    font-size: 26px;
+    padding: 5px 11px 4px 13px;
+    display: inline-block;
+    margin-right: 12px;
+    margin-top: 50px;
+
+} */
+
+.name {
+    color: #233348;
+    font-size: 24px;
+    display: inline-block;
+
+}
+
+.navbar {
+padding: 55px 40px 0px 170px;   
+
+}
+.navbar ul li {
+list-style: none;
+display: inline;
+font-size: 18px;
+margin-left: 40px;
+
+}
+a {
+color: #1F1534;
+text-decoration: none;
+
+}
+
+.header-main-txt {
+font-size: 48px;
+font-weight: 700;
+line-height: 56px; 
+width: 427px;
+margin-left: 240px;
+margin-top: 120px;
+text-align: left;
+}
+.service-description {
+color: #7D7987;
+font-size: 21px;
+font-weight: 300;
+line-height: 32px;
+width: 445px;
+margin-left: 240px; 
+margin-top: -100px;
+text-align: left;
+
+
+}
+.consult-button {
+width: 200px;
+height: 56px;
+border-radius: 55px;
+background: #458FF6;
+color: #FFF;
+font-size: 18px;
+font-weight: 700;
+border: none;
+margin-top: 32px;
+margin-right: 40px;
+}
+.trafalgar-picture {
+background-size:cover;
+width: 693px;
+height: 598px;
+margin-left: 40px;
+
+}
+
+ body{
+    box-sizing: border-box;
+}
+
+.whole-div {
+  
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    position: relative;
+    clear: both;
+   height: 1400px;
+}
+.service-heading, .learnmore-button .column{ 
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+.service-box{
+    height: 60%;
+    column-count: 3;
+    padding: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.column {
+    height: 45%;
+    width: 80%;
+    /* float: left; */
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+
+}
+
+.service-heading {
+    height: 30%;
+}
+.learnmore-button{
+    height: 10%;
+}
+.vector-div {
+    bottom:330px;
+    /* border: 1px solid blue; */
+    z-index: -1;
+    position: absolute;
+}
+.service-heading, .service-box, .learnmore-button {
+    z-index: 1;
+}
+.service-heading h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px; 
+    text-align: center;
+    padding-top: 200px;
+    
+   
+
+}
+.rectangle, .download-rectangle {
+    width: 56px;
+    height: 2px;
+    border-radius: 5px;
+    background: #000;
+
+}
+.rectangle {
+    margin: auto;
+}
+
+.service-heading p {
+    color: #7D7987;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    width: 952px;
+    margin: auto;
+    text-align: center;
+    }
+
+.service-box img {
+    padding-top: 54px;
+    padding-right: 220px;
+}
+.service-header {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    padding-left: 15px;
+}
+.service-comment {
+    color: #7D7987;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    width: 266px;
+    padding-left: 15px;
+
+}
+.learn-more {
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    background-color: white;
+    color: #458FF6;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.providers {
+    /* border: 1px solid black; */
+    height: 477px;
+    margin:150px 100px 0 100px
+}
+.providers-picture, .comment-sections{
+    width: 50%;
+    /* border: 2px solid red; */
+    height: 100%;
+    float:left}
+
+.row {
+    height: 33.33%;
+    /* border: 2px solid black; */
+
+}
+.providers-header {
+
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    padding: 50px 70px 0px 150px;
+   
+}
+.row .rectangle  {
+    margin-left: 150px; 
+    margin-top: 15px;
+}
+.provider-comment{
+    color: #7D7987;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    padding: 15px 135px 0px 150px;
+    text-align: left;
+}
+.row .learn-more {
+    margin-left:-160px;
+    margin-top:25px ;
+}
+.download {
+    height: 434px;
+    /* border: 1px solid black; */
+    margin-left: 250px;
+    margin-top: 140px;
+    width: 70%;
+}
+.download-comments {
+    width: 40%;
+    float: left;
+    height: 100%;
+}
+.download-picture {
+    width: 60%;
+    float: right;
+    height:100%
+}
+.download-header {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px; 
+    padding:15px 100px 0px 0px;  
+    text-align: left;
+    margin-bottom: 30px;
+}
+.download-comment {
+    color: #7D7987;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px; 
+    text-align: left;
+    margin-top: 25px;
+}
+.testimonials {
+    width: 80%;
+    height: 425px;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 24px;
+    background: linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
+
+}
+.testimonials-heading {
+    /* border: 1px solid red; */
+    height: 45%;
+
+}
+.testimonials-comments {
+    /* border: 5px solid green; */
+    height: 55%;
+}
+.testimonials-column {
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.testimonials-comment-column {
+    width: 50%;
+    float: left;
+
+
+}
+.testimonials-column img {
+    width: 133px;
+    border-radius: 68px;
+    border:5px solid white;
+    position: absolute;    
+}
+.customer-name {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-top:35px;
+    margin-right: 120px;
+}
+.profession {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 48px; 
+    margin-right: 170px;
+    margin-top: -15px;
+}
+
+.testimonials-comment-column p {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    width: 350px;
+    margin: 10px;
+
+}
+.testimonials-heading p {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px; /* 133.333% */
+    padding-top:50px;
+}
+.testimonials-heading .rectangle {
+    background-color: white;
+    margin-top: 30px;
+}
+.latest-article {
+    height: 810px;
+    /* border: 1px solid blue; */
+    width: 80%;
+    margin: auto;
+    margin-top: 300px;
+}
+.article-header {
+    height: 20%;
+}
+.article-header p{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom:20px;
+}
+.article-columns {
+    height: 60%;
+    margin-bottom: 18px;
+    /* border: 1px solid black; */
+    
+}
+.article-columns  div {
+    height: 50%;
+    width: 29%;
+    margin: 0px 12px 0px 32px;
+    /* border: 1px solid black; */
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+    border-radius: 20px;
+
+    float: left;
+}
+.article-button .learn-more {
+    margin-top: 50px;
+}
+.article-description {
+    color: #7D7987;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px; 
+    text-align: left;
+    width: 266px;
+    margin-left: 32px;
+}
+
+.read-more-button {
+    color: #4089ED;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px; 
+    border: none;
+    background-color: white;
+    margin: 18px 0px 0px -180px;
+    
+}
+.article-columns img {
+    border-radius: 20px 20px 0 0  ;
+}
+.lab {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 15px 80px 10px 32px;
+    text-align: left;
+}
+footer {
+    background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    /* position: absolute;
+    bottom: 0; */
+    width: 100%;
+    border: 1px solid black;
+
+}
+
+.t-sign {
+    width: 41px;
+    height: 41px;
+    border: 20px;
+}

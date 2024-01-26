@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout3</title>
+    <style>
+        * { 
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        body {
+            box-sizing: border-box;
+        }
+       
+        .whole-div {
+            height: 100vh;
+            border: 1px solid black;
+            box-sizing: border-box;
+            position: relative
+            ;
+        }
+        .service-heading, .last-row, .column{ 
+            border: 1px solid black;
+            box-sizing: border-box;
+        }
+        .service-box{
+            height: 50%;
+            column-count: 3;
+            padding: 50px;
+        }
+        .column {
+            height: 45%;
+            width: 80%;
+            /* float: left; */
+            box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+            background-color: white;
+    border-radius: 20px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+
+        }
+
+        .service-heading {
+            height: 30%;
+        }
+        .last-row {
+            height: 20%;
+        }
+        .vector-div {
+            bottom:250px;
+            border: 1px solid blue;
+            z-index: -1;
+            position: absolute;
+        }
+        .service-heading, .service-box, .last-row {
+            z-index: 1;
+        }
+        .service-heading h2 {
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 56px; 
+            text-align: center;
+            padding-top: 80px;
+            
+           
+
+}
+.rectangle {
+    width: 56px;
+    height: 2px;
+    border-radius: 5px;
+    background: #000;
+    margin: auto;
+}
+.service-heading p {
+    color: #7D7987;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    width: 952px;
+    margin: auto;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div class="whole-div">
+    <div class="vector-div ">
+        <img src="images/Vector.png" alt="">
+    </div>
+    <div class="service-heading">
+        <br>
+                <h2>Our services</h2>
+            <div class="rectangle"></div>
+                <br>
+                <p>We provide to you the best choices for you. Adjust it to your
+                    health needs and make sure underego treatment with our higly
+                    qualified dovtors you can consult with us which type of service
+                    is suitable for your health.
+                </p>
+    </div>
+    <div class="service-box">
+        <div class="column">
+            <img src="images/Frame.png" >
+        </div>
+        <div class="column">
+            <img src="images/Frame (1).png">
+        </div>
+        <div class="column">
+            <img src="images/Frame (2).png" alt="">
+        </div>
+        <div class="column">
+            <img src="images/Frame (3).png" alt="">
+        </div>
+        <div class="column">
+            <img src="images/Frame (4).png" alt="">
+        </div>
+        <div class="column">
+            <img src="images/Frame (5).png" alt="">
+        </div>
+    </div>
+    <div class="learnmore-button"></div>
+</div>
+</body>
+</html>

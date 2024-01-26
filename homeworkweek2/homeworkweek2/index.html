@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        
+        table, th, td{border: 2px solid black;
+        border-collapse: collapse;
+    width: 600px; padding: 10px; font-size: 120%;}
+    ::placeholder{font-weight:bold}
+    </style>
+
+</head>
+<form>
+        <table>
+   
+        <tr>
+            <th>Control Type</th>
+            <th>Data</th>
+            <th>Control</th>
+        </tr>
+        <tr>
+            <td>Text box</td>
+            <td><label for="Name">Name:</label></td>
+            <td><input type="text" id="name" name="Name" placeholder="Enter name"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><label for="Password">Password:</label> </td>
+            <td><input type="password" name="Password" id="Password"></td>
+        </tr>
+        <tr>
+            <td>Text area</td>
+            <td><label for="Address">Address:</label></td>
+            <td><textarea name="Address" id="Address" cols="30" rows="5" placeholder="Enter address"></textarea></td>
+        </tr>
+    
+        <tr>
+            <td>Drop down list</td>
+            <td>Area:</td>
+            <td><select name="Area">
+                <option value="center">Center</option>
+                <option value="right">right</option>
+                <option value="left">left</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Check box</td>
+            <td>Hobbies:</td>
+            <td><legend></legend>
+                <input type="checkbox" name="hobby1" id="Sport">Sport <br/>
+                <input type="checkbox" name="hobby2" id="Reading">Reading<br/>
+                <input type="checkbox" name="hobby3" id="TV">T.V.<br/>
+                <input type="checkbox" name="hobby4" id="internet">Internet<br/></td>
+        </tr>
+        <tr>
+            <td>Radio Buttons</td>
+            <td>Gender:</td>
+            <td><fieldset>
+                <legend>Gender Selection</legend>
+                <input type="radio" name="gender" value="male">Male <br>
+                <input type="radio" name="gender" value="female">Female</fieldset></td>
+        </tr>
+        <tr>
+            <td>File upload</td>
+            <td>Your image:</td>
+            <td><action="../desktop.ini" choose file>
+                <input type="file" name="Choose file" id="choosefile"></td>
+        </tr>
+        <tr>
+           <td>Buttons</td>
+           <td>Actions:</td>
+           <td>
+           <input type="submit" value="Submit">
+           <input type="reset">
+           <input type="button" value="Button" ></td>
+        </tr>
+
+
+    </table>
+</form>
+</body>
+</html>
